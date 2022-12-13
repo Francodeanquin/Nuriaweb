@@ -8,8 +8,8 @@
 /* Nombre pagina */
 
 
-span {
-    font-weight: 100;
+.Nombre-color {
+    font-weight: 300;
     font-style: normal;
     color: rgb(8, 68, 58);
 }
@@ -21,31 +21,27 @@ span {
 
 }
 
-/* header - barra de navegacion*/
-
-header {
-
-    /* Created with https://www.css-gradient.com */
+.barra-navegacion {
     background: #F6F6F6;
     background: -webkit-linear-gradient(top left, #F6F6F6, #E8B1D1);
     background: -moz-linear-gradient(top left, #F6F6F6, #E8B1D1);
     background: linear-gradient(to bottom right, #F6F6F6, #E8B1D1);
     ;
-    width: fit-content;
     border-bottom: 2px solid cadetblue;
-    display: flex;
-    justify-content: space-between;
-
-
 }
 
-.menu-icon {
-    height: 30px;
-    width: 30px;
-    display: none;
+
+.menu-desplegado-body ul {
+    margin-bottom: 20px;
 }
 
-nav ul {
+nav ul li a {
+    text-decoration: none;
+    transition: background-color .5s;
+    color: rgb(221, 68, 68);
+
+
+    /* .barra-navegacion ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -66,7 +62,7 @@ a:hover {
     background-color: rgb(116, 148, 69);
     cursor: pointer;
     font-weight: 600;
-}
+} */
 
-/* main*/
-main {}
+    /* main*/
+    main {}

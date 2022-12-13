@@ -13,20 +13,57 @@
 
 <body>
     <header>
-        <div class="nombre-pagina">
-            <H1><span>Nuria </span>Aguero</H1>
+        <nav class="barra-navegacion navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <H1><span class="Nombre-color">Nuria </span>Aguero</H1>
 
-            <h4>Arte en cuadros</h4>
-        </div>
+                    <h4>Arte en cuadros</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <H1><span class="
+                                Nombre-color ">Nuria </span>Aguero</H1>
 
-        <nav class="menu">
-            <ul>
-                <li><a href="./Index.html">Inicio</a></li>
-                <li><a href="./pages/Contacto.html">Contacto</a></li>
-                <li><a href="./pages/Audiovisual.html">audiovisual</a></li>
-                <li><a href="./pages/Productos.html">Productos</a></li>
-                <li><a href="./pages/Sobremi.html">Acerca de mi</a></li>
-            </ul>
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="menu-desplegado-body offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item ">
+                                <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./page/audiovisual.html">Audiovisual</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./page/catalogo.html">Catalogo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./page/contacto.html">Contacto</a>
+                            </li>
+
+
+
+                        </ul>
+                        </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="ingrese su busqueda aqui"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
     </header>
     <main>
