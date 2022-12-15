@@ -136,6 +136,11 @@ footer i {
     gap: 30px;
 
 }
+.video-span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 .video iframe {
     max-width: 100%;
@@ -178,7 +183,7 @@ fieldset {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #CCC;
+    background-color: rgba(245, 219, 219, 0.87);
 
 }
 
@@ -192,6 +197,11 @@ fieldset button {
 
     .barra-navegacion {
         display: none;
+    }
+    
+    h1 {
+        display: flex;
+        flex-direction: column;
     }
 
     .nav-grande {
@@ -231,15 +241,56 @@ fieldset button {
         font-weight: 500;
     }
 
-    .nav-grande ul li a:hover {
-        background-color: rgb(144, 238, 144, .5);
-    }
-
-    h1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-
+    
+/* main  index*/
+.index-grande{
+    display: grid;
+    grid-template-columns: 70% 20%;
+   gap: 80px;
 
 }
+
+/* main audiovisual */
+
+.video {
+    grid-template-columns: 45% 45%;
+gap: 40px;
+}
+
+/* main catalogo */
+
+.imagenes-vertical{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 20px;
+}
+.imagenes-horizontales{
+    
+    
+}
+}
+
+@media (min-width:1024px){
+    .nav-grande ul li a:hover {
+        background-color: rgb(144, 238, 144, .2);
+    }
+
+
+    /* index */
+
+    .index-grande{
+        margin: 0px 100px;
+    }
+    
+    /* contacto */
+
+    form{
+        display: flex;
+        justify-content: center;
+    }
+fieldset{
+    max-width: 600px;
+
+}
+}
+
