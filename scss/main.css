@@ -96,6 +96,15 @@ footer i {
   height: 25px;
 }
 
+.copy {
+  font-size: 0.6rem;
+  font-style: italic;
+}
+
+.foto-nuria {
+  display: flex;
+  flex-direction: column;
+}
 .foto-nuria img {
   padding: 1px;
   max-width: 100%;
@@ -103,7 +112,7 @@ footer i {
   box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
 }
 .foto-nuria i {
-  font-size: 50%;
+  font-size: 0.7rem;
 }
 
 .imagenes-vertical {
@@ -227,6 +236,13 @@ fieldset button {
   }
   .index-grande {
     margin: 0px 100px;
+  }
+  .foto-nuria {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  article p {
+    margin-top: 10%;
   }
   form {
     display: flex;

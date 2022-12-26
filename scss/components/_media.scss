@@ -54,6 +54,7 @@
 		gap: 40px;
 	}
 
+	
 	.imagenes-vertical {
 		display: grid;
 		grid-template-columns: 45% 45%;
@@ -86,7 +87,13 @@
 	.index-grande {
 		margin: 0px 100px;
 	}
-
+	.foto-nuria{
+		max-width: 80%;
+		max-height: 80%;
+	}
+	article p {
+	margin-top: 10%;
+	}
 	form {
 		display: flex;
 		justify-content: center;
