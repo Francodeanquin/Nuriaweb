@@ -39,8 +39,6 @@ p {
 .barra-navegacion {
   position: relative;
   background: #F6F6F6;
-  background: -webkit-linear-gradient(top left, #F6F6F6, #E8B1D1);
-  background: -moz-linear-gradient(top left, #F6F6F6, #E8B1D1);
   background: linear-gradient(to bottom right, #F6F6F6, #E8B1D1);
   border-bottom: 2px solid cadetblue;
 }
@@ -236,8 +234,6 @@ fieldset button {
     justify-content: space-between;
     flex-direction: row;
     background: #F6F6F6;
-    background: -webkit-linear-gradient(top left, #F6F6F6, #E8B1D1);
-    background: -moz-linear-gradient(top left, #F6F6F6, #E8B1D1);
     background: linear-gradient(to bottom right, #F6F6F6, #E8B1D1);
     border-bottom: 2px solid cadetblue;
   }
@@ -330,6 +326,4 @@ fieldset button {
     max-width: 90%;
     max-height: 90%;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=main.css.map */

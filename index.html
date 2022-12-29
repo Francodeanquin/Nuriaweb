@@ -14,12 +14,13 @@
 
 <body>
     <header>
+
         <nav class="barra-navegacion navbar navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <H1><span class="Nombre-color">Nuria </span>Aguero</H1>
 
-                    <h4>Arte en cuadros</h4>
+                    <span class="eslogan">Arte en cuadros</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -48,6 +49,9 @@
                                 <a class="nav-link active" aria-current="page" href="./page/catalogo.html">Catalogo</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./page/Sobre-mi.html">Sobre mi</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link active" href="./page/contacto.html">Contacto</a>
                             </li>
 
@@ -69,12 +73,16 @@
 
         <!-- Navegador grande (oculto en mobile) -->
         <nav class="nav-grande">
-            <H1><span class="Nombre-color">Nuria </span>Aguero</H1>
+            <div class="nombre-logo">
+                <H1><span class="Nombre-color">Nuria </span>Aguero</H1>
+                <span class="eslogan">Arte en cuadros</span>
+            </div>
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./page/audiovisual.html">audiovisual</a></li>
                 <li><a href="./page/catalogo.html">Catalogo</a></li>
                 <li><a href="./page/contacto.html">Contacto</a></li>
+                <li><a href="./page/Sobre-mi.html">Sobre mi</a></li>
 
             </ul>
 
@@ -82,31 +90,28 @@
 
     </header>
 
+    <!-- Main -->
     <main>
-        <section>
-            <article>
-                <h2 class="titulo-pagina">Agüero Nuria Salomé</h2>
-                <div class="index-grande">
-                    <div class="foto-nuria">
-                        <img src="./Img/Nuria.jpg" alt="foto frontal de Nuria aguero">
-                        <i>Nuria aguero</i>
-                    </div>
-                    <p>
-                        Nació en Saldán, Córdoba (1994). Es Artista/dibujante/investigadora del vacío. Licenciada en
-                        Pintura
-                        por la Facultad de
-                        Artes (UNC), donde continúa realizando el Prof.en Artes Visuales. Ha participado en diversas
-                        muestras y programas a nivel
-                        provincial. Vive y trabaja en la ciudad de Córdoba.
-                    </p>
-                </div>
-            </article>
+        <section class="imagenes-fondo">
+            <div class="dibujo1">
+                <img class="dibujos-fondo" src="./Img/Dibujo1.png"
+                    alt="Dibujo de persona en blanco y negro (instagram nuria)">
+            </div>
+
+            <div class="dibujo2">
+                <img class="dibujos-fondo" src="./Img/Dibujo2.png"
+                    alt="Dibujo de persona en blanco y negro (instagram nuria)">
+            </div>
+
+            <div class="dibujo3">
+                <img class="dibujos-fondo" src="./Img/Dibujo3.png"
+                    alt="Dibujo de persona en blanco y negro (instagram nuria)">
+            </div>
+
         </section>
-
-
     </main>
 
-    <!-- footer provisorio, modificar acorde a la pagina -->
+    <!-- footer  -->
 
     <footer>
         <div class="dropdown">
@@ -119,6 +124,7 @@
                 <li><a class="dropdown-item" href="page/audiovisual.html">Audiovisual</a></li>
                 <li><a class="dropdown-item" href="./page/catalogo.html">Catalogo</a></li>
                 <li><a class="dropdown-item" href="./page/contacto.html">Contacto</a></li>
+                <li><a class="dropdown-item" href="./page/Sobre-mi.html">Sobre mi</a></li>
             </ul>
         </div>
         <div class="iconos">

@@ -43,31 +43,49 @@
 		}
 	}
 
-	.index-grande {
-		display: grid;
-		grid-template-columns: 70% 20%;
-		gap: 80px;
-	}
+	
 
 	.video {
 		grid-template-columns: 45% 45%;
 		gap: 40px;
+		align-items: center;
+		justify-content: center;
+		
 	}
+	
 
 	
-	.imagenes-vertical {
+	.imagenes-vertical, .imagenes-horizontales{
 		display: grid;
 		grid-template-columns: 45% 45%;
 		gap: 20px;
-
-
-	}
-
-	.imagenes-horizontales {
-		margin: 0px 37px;
-
+				
 
 	}
+
+	
+.about-grande{
+    display: grid;
+	grid-template-columns: 60% 25%;
+	gap: 20px;
+	p{
+		font-size: large;
+	}
+	}
+	
+	
+.imagenes-fondo {
+	display: flex;
+	flex-direction: column;
+	
+
+	.dibujos-fondo {
+		margin-top: 20px;
+		width: 45%;
+		height: 100%;
+				
+	}
+}
 
 }
 
@@ -84,8 +102,11 @@
 		}
 	}
 
-	.index-grande {
+	.about-grande {
 		margin: 0px 100px;
+		p{
+			font-size: x-large;
+		}
 	}
 	.foto-nuria{
 		max-width: 80%;
